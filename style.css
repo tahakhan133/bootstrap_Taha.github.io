@@ -1,0 +1,66 @@
+html{
+	  scroll-behavior: smooth;
+
+}
+.bgimg{
+	background-image: url('body/pic.jpg');
+	background-size: 100% 100%;
+	background-attachment: fixed;
+	width: 100%;
+	height: 600px;
+}
+.heading{
+	padding-top: 200px;
+	box-sizing: border-box;
+}
+.font{
+	font-family: 'Pacifico', cursive;
+	font-size: 70px;
+
+}
+.line{
+	background-color: orange;
+}
+.products li{
+	list-style-type: none;
+	display: inline;
+	padding: 25px;
+}
+.products li:hover{
+	background-color: #F9FAF9;
+}
+.photo:hover{
+	opacity: 0.5;
+
+}
+.facts{
+	margin-top: 150px;
+}
+.block:hover{
+
+	box-shadow: 1px 1px 1px 1px lightgrey;
+}
+.card-body img{
+	box-shadow: 0px 0px 5px 5px grey;
+}
+input{
+	box-shadow: 0px 0px 1px 1px grey;
+}
+.contact_email{
+
+border-top: none;
+border-right: none;
+border-left: none;
+border-bottom: 1px dotted grey;
+
+}
+.social_media_links i{
+	padding: 25px;
+	border-radius: 60px;
+	background-color: white;
+	border :1px black;
+	box-shadow: 0px 0px 1px 1px grey;
+}
+.social_media_links i:hover{
+	background-color: lightgrey;
+}
